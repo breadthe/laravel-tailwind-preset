@@ -1,3 +1,13 @@
+# Laravel + TailwindCSS preset
+
+Contains:
+
+- Laravel 7
+- [TailwindCSS](https://github.com/tailwindcss/tailwindcss) 1.x
+- [Alpine.js](https://github.com/alpinejs/alpine) 2.x
+- Authentication
+- Responsive nav
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">

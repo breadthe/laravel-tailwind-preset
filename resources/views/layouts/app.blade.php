@@ -21,7 +21,7 @@
 
     @include('layouts.favicon')
 
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.9.0/dist/alpine.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.1.2/dist/alpine.js" defer></script>
 </head>
 <body>
     <div id="app" class="relative" x-data="{'menuIsOpen': false}">
