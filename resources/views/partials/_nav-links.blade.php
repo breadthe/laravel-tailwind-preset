@@ -21,10 +21,10 @@
             {{ Auth::user()->name }}
 
             <span x-show="dropdownIsOpen" x-cloak>
-                @include('partials.icons._svg', ['icon' => 'chevron-down', 'width' => 28, 'height' => 28, 'viewBox' => '20 20', 'strokeWidth' => 0, 'fill' => true])
+                <x-icon icon="chevron-down" width=28 height=28 viewBox="20 20" strokeWidth=0 />
             </span>
             <span x-show="!dropdownIsOpen" x-cloak>
-                @include('partials.icons._svg', ['icon' => 'chevron-up', 'width' => 28, 'height' => 28, 'viewBox' => '20 20', 'strokeWidth' => 0, 'fill' => true])
+                <x-icon icon="chevron-up" width=28 height=28 viewBox="20 20" strokeWidth=0 />
             </span>
         </button>
 
