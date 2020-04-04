@@ -26,7 +26,12 @@
 <body>
     <div id="app" class="relative" x-data="{'menuIsOpen': false}">
         <!-- overlay -->
-        <div class="absolute inset-0 bg-black opacity-50 sm:hidden" x-show="menuIsOpen" x-on:click="menuIsOpen = false">
+        <div
+            class="absolute inset-0 bg-black opacity-50 sm:hidden"
+            x-show="menuIsOpen"
+            x-cloak
+            x-on:click="menuIsOpen = false"
+        >
         </div>
 
         @include('layouts.nav')

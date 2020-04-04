@@ -25,6 +25,7 @@
     <div
         class="z-10 absolute right-0 inset-y-0 bg-gray-800 sm:hidden"
         x-show="menuIsOpen"
+        x-cloak
     >
         <div class="w-full text-right">
             <button type="button" class="p-4 text-2xl text-white" x-on:click="menuIsOpen = false">ⓧ</button>
