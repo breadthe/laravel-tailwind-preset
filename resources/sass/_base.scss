@@ -9,6 +9,7 @@ body {
 
 a {
     @apply text-gray-800;
+    @apply underline;
 
     &:hover {
         @apply text-black;
