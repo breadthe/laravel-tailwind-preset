@@ -1,6 +1,6 @@
 @error($field)
 <span
-    class="block text-red-500 text-base font-light mt-2 p-2 border border-red-200 bg-red-100 rounded"
+    class="text-red-600 text-base leading-tight"
     role="alert"
 >
     <strong>{{ $message }}</strong>

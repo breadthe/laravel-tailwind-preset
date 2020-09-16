@@ -43,7 +43,7 @@
 
         <x-forms.group class="flex flex-row mt-8">
             <div class="sm:ml-auto sm:w-2/3">
-                <button type="submit" class="btn btn--blue btn--pill">
+                <button type="submit" class="btn btn--blue">
                     {{ __('Login') }}
                 </button>
 
